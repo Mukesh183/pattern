@@ -1,4 +1,4 @@
-'''name="mukesh"
+name="mukesh"
 def add(no1,no2):
 	return no1+no2
 
@@ -91,7 +91,7 @@ def add(no):
 	else:
 		return no+add(no-1)
 print(add(2))
-'''
+
 def isprime(no,div):
 	if no%div==0:
 		return False
