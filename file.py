@@ -1,4 +1,5 @@
-'''f=open("pqrs.txt","a")#w--> overwrite
+#file handling
+f=open("pqrs.txt","a")#w--> overwrite
 f.write("Mukesh\n")
 f.write("siva\n")
 f.write("gowtham\n")
@@ -85,9 +86,9 @@ with open("student.dat","wb")as f:
 with open("student.dat","rb")as f:
 	ob=pickle.load(f)
 	ob.display()
-'''
 
-'''import os
+
+import os
 print("the current working directory:")
 print(os.getcwd())
 
@@ -109,7 +110,7 @@ print(os.getcwd())
 import os
 os.chdir('NewDirectory/sub')
 print(os.getcwd())
-'''
+
 
 
 
